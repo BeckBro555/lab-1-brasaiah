@@ -13,7 +13,12 @@ public class Balance {
 
     // QUESTION 2: Why must the main method be declared as public static void? (Explain each keyword specifically.)
     public static void main(String[] args) {
+    System.out.println("Question 1: It fails due to the fact that it must be the same name as the file, in this case, Balance");
+    //Java main()
+    System.out.println("Question 2: The main() needs to be static, in order for the compiler to call it without");
+    System.out.print("the creation of an object before the creation of an object of the class");
 
         // QUESTION 3: Why must all variables you declare be declared with a type?
+        System.out.println("Question 3: A variable's type will determine the actions you can perform on it, as well as the values that it could have");
     }
 }
